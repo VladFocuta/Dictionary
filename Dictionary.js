@@ -24,7 +24,6 @@ function wordExists() {
       } else if (!words.includes(searchTerm)) {
          messageDiv.innerHTML = searchTerm + " " + "is not in the dictionary";
       }
-
    } else if (searchTerm.length === 0) {
       messageDiv.innerHTML = "You need to type a word first";
    }
